@@ -1,16 +1,12 @@
 # ECG 数字滤波去噪 —— 从工业级数字滤波器到深度学习
 
-数字信号处理课程报告。华中科技大学通信工程专业。
+数字信号处理课程报告。北京科技大学通信工程专业。
 
 ## 项目结构
 
 ```
-├── ECG_report.tex              # LaTeX 报告源文件
-├── ecg_denoising.py            # 传统滤波管线（生产级）
+├── ecg_denoising.py            # 传统滤波管线
 ├── ecg_denoising_dl.py         # 深度学习 CNN-DAE
-├── figures/                    # 传统方法输出图表
-├── figures_dl/                 # 深度学习方法输出图表
-├── models/                     # 训练好的 CNN-DAE 模型权重
 └── README.md
 ```
 
