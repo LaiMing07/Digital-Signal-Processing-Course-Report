@@ -1,0 +1,39 @@
+# LaTeX 编译临时文件
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# PDF 教材和论文（太大，不上传）
+数字信号处理（第五版）-高西全.pdf
+离散时间信号处理（第3版）(美)奥本海姆著.pdf
+*.pdf
+
+# 但保留生成的图表和报告PDF
+!figures/*.pdf
+!figures_dl/*.pdf
+!ECG_report.pdf
+
+# 临时文件
+_check_*.txt
+new_main.py
+main_new.txt
+A_symmetry.txt
+B_malghan.txt
+C_zhou.txt
+D_rudn.txt
+
+# Claude 本地配置
+.claude/
+
+# 压缩包和旧目录
+*.zip
+数字信号处理报告/
